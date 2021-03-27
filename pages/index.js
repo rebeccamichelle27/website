@@ -24,8 +24,8 @@ export default function Home() {
       <div className="wrapper">
         <div className="sidebar-wrapper">
           <div className="profile-container">
-            <img className="profile" src="assets/images/profile.png" alt />
-            <h1 className="name">Alan Doe</h1>
+            <img className="profile" src="assets/images/profile.png" alt="" />
+            <h1 className="name">Rebecca Smith</h1>
             <h3 className="tagline">Full Stack Developer</h3>
           </div>{/*//profile-container*/}
           <div className="contact-container container-block">
