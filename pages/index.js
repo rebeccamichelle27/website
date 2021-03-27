@@ -15,6 +15,7 @@ export default function Home() {
         {/* Google Font */}
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
         {/* FontAwesome JS*/}
+        <script defer src="assets/fontawesome/js/all.min.js"></script>
         {/* Global CSS */}
         <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
         {/* Theme CSS */}
