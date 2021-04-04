@@ -25,45 +25,40 @@ export default function Home() {
           <div className="profile-container">
             <img className="profile" src="assets/images/profile.png" alt="" />
             <h1 className="name">Rebecca Smith</h1>
-            <h3 className="tagline">Full Stack Developer</h3>
+            <h3 className="tagline">Aspiring Software Developer</h3>
           </div>{/*//profile-container*/}
           <div className="contact-container container-block">
             <ul className="list-unstyled contact-list">
-              <li className="email"><i className="fas fa-envelope" /><a href="mailto: yourname@email.com">alan.doe@website.com</a></li>
-              <li className="phone"><i className="fas fa-phone" /><a href="tel:0123 456 789">0123 456 789</a></li>
-              <li className="website"><i className="fas fa-globe" /><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">portfoliosite.com</a></li>
-              <li className="linkedin"><i className="fab fa-linkedin-in" /><a href="#" target="_blank">linkedin.com/in/alandoe</a></li>
-              <li className="github"><i className="fab fa-github" /><a href="#" target="_blank">github.com/username</a></li>
-              <li className="twitter"><i className="fab fa-twitter" /><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>
+              <li className="email"><i className="fas fa-envelope" /><a href="mailto: yourname@email.com">rebeccamsmith29@gmail.com</a></li>
+              <li className="phone"><i className="fas fa-phone" /><a href="tel:0123 456 789">214 384 4306</a></li>
+              <li className="website"><i className="fas fa-globe" /><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">rebeccasmith.lol</a></li>
+              <li className="linkedin"><i className="fab fa-linkedin-in" /><a href="#" target="_blank">linkedin.com/in/rebecca-smith-496b36120</a></li>
+              <li className="github"><i className="fab fa-github" /><a href="#" target="_blank">github.com/rebeccamichelle27</a></li>
             </ul>
           </div>{/*//contact-container*/}
           <div className="education-container container-block">
             <h2 className="container-block-title">Education</h2>
+
             <div className="item">
-              <h4 className="degree">MSc in Computer Science</h4>
-              <h5 className="meta">University of London</h5>
-              <div className="time">2016 - 2018</div>
-            </div>{/*//item*/}
-            <div className="item">
-              <h4 className="degree">BSc in Applied Mathematics</h4>
-              <h5 className="meta">Bristol University</h5>
-              <div className="time">2011 - 2015</div>
+              <h4 className="degree">BSc in Biology</h4>
+              <h5 className="meta">University of North Texas</h5>
+              <div className="time">2013 - 2015</div>
             </div>{/*//item*/}
           </div>{/*//education-container*/}
           <div className="languages-container container-block">
             <h2 className="container-block-title">Languages</h2>
             <ul className="list-unstyled interests-list">
               <li>English <span className="lang-desc">(Native)</span></li>
-              <li>French <span className="lang-desc">(Professional)</span></li>
-              <li>Spanish <span className="lang-desc">(Professional)</span></li>
             </ul>
           </div>{/*//interests*/}
           <div className="interests-container container-block">
             <h2 className="container-block-title">Interests</h2>
             <ul className="list-unstyled interests-list">
-              <li>Climbing</li>
-              <li>Snowboarding</li>
-              <li>Cooking</li>
+              <li>Weight lifting</li>
+              <li>Hiking</li>
+              <li>Camping</li>
+              <li>Interior Design</li>
+              <li>Reading</li>
             </ul>
           </div>{/*//interests*/}
         </div>{/*//sidebar-wrapper*/}
@@ -71,7 +66,7 @@ export default function Home() {
           <section className="section summary-section">
             <h2 className="section-title"><span className="icon-holder"><i className="fas fa-user" /></span>Career Profile</h2>
             <div className="summary">
-              <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+              <p>I'm Rebecca, a clinical research professional with 6 years of experience behind the bench, in the clinic, and in the office. I'm enthusiastic to explore the world of programming and land my first software development job. Python is the language I've enjoyed learning and programming in the most. I also have experience with JavaScript, JQuery, HTML5, and CSS.</p>
             </div>{/*//summary*/}
           </section>{/*//section*/}
           <section className="section experiences-section">
@@ -79,102 +74,117 @@ export default function Home() {
             <div className="item">
               <div className="meta">
                 <div className="upper-row">
-                  <h3 className="job-title">Lead Developer</h3>
+                  <h3 className="job-title">Research Associate</h3>
                   <div className="time">2019 - Present</div>
                 </div>{/*//upper-row*/}
-                <div className="company">Startup Hubs, San Francisco</div>
+                <div className="company">Reata Pharmaceuticals, Plano</div>
               </div>{/*//meta*/}
               <div className="details">
-                <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                <p>New Drug Application (NDA) preparation and submission, managing vendors assisting with NDA preparation, leading data monitoring committee meetings for ongoing clinical trials, QC and review of clinical documents, managing CT.gov submissions.</p>
+                <p></p>
               </div>{/*//details*/}
             </div>{/*//item*/}
             <div className="item">
               <div className="meta">
                 <div className="upper-row">
-                  <h3 className="job-title">Senior Software Engineer</h3>
+                  <h3 className="job-title">Regulatory Specialist</h3>
                   <div className="time">2018 - 2019</div>
                 </div>{/*//upper-row*/}
-                <div className="company">Google, London</div>
+                <div className="company">Mary Crowley Cancer Research, Dallas</div>
               </div>{/*//meta*/}
               <div className="details">
-                <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                <p>Determined protocol feasibility, completed regulatory submissions, prepared for QA and FDA audits, organized protocol training for staff to ensure timely opening of clinical trials, worked with finance to create tiered pricing for amendment processing based on effort tracking, trained new employees.</p>
               </div>{/*//details*/}
             </div>{/*//item*/}
             <div className="item">
               <div className="meta">
                 <div className="upper-row">
-                  <h3 className="job-title">UI Developer</h3>
-                  <div className="time">2016 - 2018</div>
+                  <h3 className="job-title">Clinical Data Specialist, Phase 1 Oncology - Solid tumors</h3>
+                  <div className="time">2017 - 2018</div>
                 </div>{/*//upper-row*/}
-                <div className="company">Amazon, London</div>
+                <div className="company">UT Southwestern Medical Center, Dallas</div>
               </div>{/*//meta*/}
               <div className="details">
-                <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                <p>Worked on a small team to manage the dynamic and complex nature of Phase 1 clinical trials, reviewed data to determine treatment modifications with physicians, entered patient data, instructed patients on protocol procedures, managed timely query resolution.</p>
+              </div>{/*//details*/}
+            </div>{/*//item*/}
+            <div className="item">
+              <div className="meta">
+                <div className="upper-row">
+                  <h3 className="job-title">Research Technician</h3>
+                  <div className="time">2016 - 2017</div>
+                </div>{/*//upper-row*/}
+                <div className="company">UT Southwestern Medical Center, Dallas</div>
+              </div>{/*//meta*/}
+              <div className="details">
+                <p>Determined that there is a relationship between virus propogation and the catalytic activity of an antibiotic resistance gene, TEM-1, using Phage Assisted Continuous Evolution (PACE) technology and optimized PACE technology to avoid common problems.</p>
+              </div>{/*//details*/}
+            </div>{/*//item*/}
+            <div className="item">
+              <div className="meta">
+                <div className="upper-row">
+                  <h3 className="job-title">Graduate Research Assistant</h3>
+                  <div className="time">2015 - 2016</div>
+                </div>{/*//upper-row*/}
+                <div className="company">OU Health Sciences Center, OKC</div>
+              </div>{/*//meta*/}
+              <div className="details">
+                <p>Created transgenic zebrafish models that are susceptible to lymphocytic cancer by microinjecting embryos with transgenes, used CRISPR technology to modify cohesion proteins, and created a knock out protein to determine that the mitochondrial transport protein MICU1 decreases stem properties of ovarian cancer cells.</p>
               </div>{/*//details*/}
             </div>{/*//item*/}
           </section>{/*//section*/}
           <section className="section projects-section">
             <h2 className="section-title"><span className="icon-holder"><i className="fas fa-archive" /></span>Projects</h2>
             <div className="intro">
-              <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
             </div>{/*//intro*/}
             <div className="item">
-              <span className="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">CoderPro</a></span> - <span className="project-tagline">A responsive website template designed to help developers launch their software projects. </span>
+              <span className="project-title"><a href="http://snake.rebeccasmith.lol/" target="_blank">Snake game</a></span> - <span className="project-tagline">Classic snake, better graphics and arcade tunes. Eat the apple but avoid the walls and your tail! </span>
             </div>{/*//item*/}
             <div className="item">
-              <span className="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank">Launch</a></span> - <span className="project-tagline">A responsive website template designed to help startups promote their products or services.</span>
+              <span className="project-title"><a href="https://rebecca-todo-python.herokuapp.com/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">Keep track of your to dos! This project implements user authentication and tracking data with a PostgreSQL database.</span>
             </div>{/*//item*/}
             <div className="item">
-              <span className="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">DevCard</a></span> - <span className="project-tagline">A portfolio website template designed for software developers.</span>
+              <span className="project-title"><a href="http://todo.rebeccasmith.lol/" target="_blank">To do app - JavaScript</a></span> - <span className="project-tagline">A simple, yet beautified, to do app written in JavaScript that tracks to do items in a MongoDB database.</span>
             </div>{/*//item*/}
             <div className="item">
-              <span className="project-title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro</a></span> - <span className="project-tagline">A responsive Bootstrap theme designed to help app developers promote their mobile apps</span>
+              <span className="project-title"><a href="https://yumroad--app.herokuapp.com/" target="_blank">Yumroad</a></span> - <span className="project-tagline">Like gumroad, but yummier! This app was built using flask, has 100% test coverage, implements payments with Stripe, utilizes delayed jobs, sending emails, and uses a PostgreSQL database.</span>
             </div>{/*//item*/}
-            <div className="item">
-              <span className="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> -
-          <span className="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
-            </div>{/*//item*/}
+
           </section>{/*//section*/}
           <section className="skills-section section">
             <h2 className="section-title"><span className="icon-holder"><i className="fas fa-rocket" /></span>Skills &amp; Proficiency</h2>
             <div className="skillset">
               <div className="item">
-                <h3 className="level-title">Python &amp; Django</h3>
+                <h3 className="level-title">Python</h3>
                 <div className="progress level-bar">
                   <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '99%' }} aria-valuenow={99} aria-valuemin={0} aria-valuemax={100} />
                 </div>
               </div>{/*//item*/}
               <div className="item">
-                <h3 className="level-title">Javascript &amp; jQuery</h3>
+                <h3 className="level-title">Flask </h3>
                 <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '98%' }} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
                 </div>
               </div>{/*//item*/}
               <div className="item">
-                <h3 className="level-title">Angular</h3>
+                <h3 className="level-title">HTML5</h3>
                 <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '98%' }} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
                 </div>
               </div>{/*//item*/}
               <div className="item">
-                <h3 className="level-title">HTML5 &amp; CSS</h3>
+                <h3 className="level-title">JavaScript &amp; jQuery</h3>
                 <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '95%' }} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} />
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} />
                 </div>
               </div>{/*//item*/}
               <div className="item">
-                <h3 className="level-title">Ruby on Rails</h3>
+                <h3 className="level-title">CSS</h3>
                 <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} />
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} />
                 </div>
               </div>{/*//item*/}
-              <div className="item">
-                <h3 className="level-title">Sketch &amp; Photoshop</h3>
-                <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '60%' }} aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
-                </div>
-              </div>{/*//item*/}
+
             </div>
           </section>{/*//skills-section*/}
         </div>{/*//main-body*/}
