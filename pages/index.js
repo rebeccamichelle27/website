@@ -141,13 +141,13 @@ export default function Home() {
               <span className="project-title"><a href="http://snake.rebeccasmith.lol/" target="_blank">Snake game</a></span> - <span className="project-tagline">Classic snake, better graphics and arcade tunes. Eat the apple but avoid the walls and your tail! </span>
             </div>{/*//item*/}
             <div className="item">
-              <span className="project-title"><a href="https://rebecca-todo-python.herokuapp.com/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">Keep track of your to dos! This project implements user authentication and tracking data with a PostgreSQL database.</span>
+              <span className="project-title"><a href="http://todo2.rebeccasmith.lol/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">This to do app implements user authentication and tracking data with a PostgreSQL database.</span>
             </div>{/*//item*/}
             <div className="item">
               <span className="project-title"><a href="http://todo.rebeccasmith.lol/" target="_blank">To do app - JavaScript</a></span> - <span className="project-tagline">A simple, yet beautified, to do app written in JavaScript that tracks to do items in a MongoDB database.</span>
             </div>{/*//item*/}
             <div className="item">
-              <span className="project-title"><a href="https://yumroad--app.herokuapp.com/" target="_blank">Yumroad</a></span> - <span className="project-tagline">Like gumroad, but yummier! This app was built using flask, has 100% test coverage, implements payments with Stripe, utilizes delayed jobs, sending emails, and uses a PostgreSQL database.</span>
+              <span className="project-title"><a href="https://yumroad--app.herokuapp.com/" target="_blank">Yumroad</a></span> - <span className="project-tagline">This app is similar to Gumroad. It was built using flask, has 100% test coverage, implements payments with Stripe, utilizes delayed jobs, sending emails, and uses a PostgreSQL database.</span>
             </div>{/*//item*/}
 
           </section>{/*//section*/}
