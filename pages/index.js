@@ -141,7 +141,7 @@ export default function Home() {
               <span className="project-title"><a href="http://snake.rebeccasmith.lol/" target="_blank">Snake game</a></span> - <span className="project-tagline">Classic snake, better graphics and arcade tunes. Eat the apple but avoid the walls and your tail! </span>
             </div>{/*//item*/}
             <div className="item">
-              <span className="project-title"><a href="http://todo2.rebeccasmith.lol/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">This to do app implements user authentication and tracking data with a PostgreSQL database.</span>
+              <span className="project-title"><a href="http://todo2.rebeccasmith.lol/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">This to do app implements user authentication, tracking data with a PostgreSQL database, and test coverage.</span>
             </div>{/*//item*/}
             <div className="item">
               <span className="project-title"><a href="http://todo.rebeccasmith.lol/" target="_blank">To do app - JavaScript</a></span> - <span className="project-tagline">A simple, yet beautified, to do app written in JavaScript that tracks to do items in a MongoDB database.</span>
