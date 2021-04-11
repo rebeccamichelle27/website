@@ -29,11 +29,11 @@ export default function Home() {
           </div>{/*//profile-container*/}
           <div className="contact-container container-block">
             <ul className="list-unstyled contact-list">
-              <li className="email"><i className="fas fa-envelope" /><a href="mailto: yourname@email.com">rebeccamsmith29@gmail.com</a></li>
+              <li className="email"><i className="fas fa-envelope" /><a href="mailto: rebeccamsmith29@gmail.com">rebeccamsmith29@gmail.com</a></li>
               <li className="phone"><i className="fas fa-phone" /><a href="tel:0123 456 789">214 384 4306</a></li>
-              <li className="website"><i className="fas fa-globe" /><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">rebeccasmith.lol</a></li>
-              <li className="linkedin"><i className="fab fa-linkedin-in" /><a href="#" target="_blank">linkedin.com/in/rebecca-smith-496b36120</a></li>
-              <li className="github"><i className="fab fa-github" /><a href="#" target="_blank">github.com/rebeccamichelle27</a></li>
+              <li className="website"><i className="fas fa-globe" /><a href="https://rebeccasmith.lol/" target="_blank">rebeccasmith.lol</a></li>
+              <li className="linkedin"><i className="fab fa-linkedin-in" /><a href="https://www.linkedin.com/in/rebecca-smith-496b36120" target="_blank">linkedin.com/in/rebecca-smith-496b36120</a></li>
+              <li className="github"><i className="fab fa-github" /><a href="https://github.com/rebeccamichelle27" target="_blank">github.com/rebeccamichelle27</a></li>
             </ul>
           </div>{/*//contact-container*/}
           <div className="education-container container-block">
@@ -55,10 +55,10 @@ export default function Home() {
             <h2 className="container-block-title">Interests</h2>
             <ul className="list-unstyled interests-list">
               <li>Weight lifting</li>
+              <li>Machine Learning</li>
               <li>Hiking</li>
               <li>Camping</li>
               <li>Interior Design</li>
-              <li>Reading</li>
             </ul>
           </div>{/*//interests*/}
         </div>{/*//sidebar-wrapper*/}
@@ -66,9 +66,63 @@ export default function Home() {
           <section className="section summary-section">
             <h2 className="section-title"><span className="icon-holder"><i className="fas fa-user" /></span>Career Profile</h2>
             <div className="summary">
-              <p>I'm Rebecca, a clinical research professional with 6 years of experience behind the bench, in the clinic, and in the office. I've spent the past year studying to transition into the software industry while working full time and I'm enthusiastic to explore the world of software and land my first job. Python is the language I've enjoyed learning and programming in the most. I also have experience with JavaScript, JQuery, HTML5, and CSS.</p>
-            </div>{/*//summary*/}
+              <p>I'm Rebecca, a clinical research professional with 6 years of experience behind the bench, in the clinic, and in the office. I've spent the past year studying to transition into the software industry while working full time. I've taken courses on Udemy (The Complete 2020 Web Development Bootcamp & Complete Python Developer in 2020), a Newline Flask course to build a SaaS application (Fullstack Flask), and the Flask Mega-Tutorial by Miguel Grinberg. Python is the language I've enjoyed learning and programming in the most. I also have experience with JavaScript, JQuery, HTML5, and CSS.</p>            </div>{/*//summary*/}
           </section>{/*//section*/}
+
+          <section className="section projects-section">
+            <h2 className="section-title"><span className="icon-holder"><i className="fas fa-archive" /></span>Projects</h2>
+            <div className="intro">
+            </div>{/*//intro*/}
+            <div className="item">
+              <span className="project-title"><a href="http://snake.rebeccasmith.lol/" target="_blank">Snake game</a></span> - <span className="project-tagline">Classic snake, better graphics and arcade tunes. Eat the apple but avoid the walls and your tail! </span>
+            </div>{/*//item*/}
+            <div className="item">
+              <span className="project-title"><a href="http://todo2.rebeccasmith.lol/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">This to do app implements user authentication, tracking data with a PostgreSQL database, and test coverage.</span>
+            </div>{/*//item*/}
+            <div className="item">
+              <span className="project-title"><a href="http://todo.rebeccasmith.lol/" target="_blank">To do app - JavaScript</a></span> - <span className="project-tagline">A simple, yet beautified, to do app written in JavaScript that tracks to do items in a MongoDB database.</span>
+            </div>{/*//item*/}
+            <div className="item">
+              <span className="project-title"><a href="https://yumroad--app.herokuapp.com/" target="_blank">Yumroad</a></span> - <span className="project-tagline">This app is similar to Gumroad. It was built using flask, has 100% test coverage, implements payments with Stripe, utilizes delayed jobs, sending emails, and uses a PostgreSQL database.</span>
+            </div>{/*//item*/}
+
+          </section>{/*//section*/}
+          <section className="skills-section section">
+            <h2 className="section-title"><span className="icon-holder"><i className="fas fa-rocket" /></span>Skills &amp; Proficiency</h2>
+            <div className="skillset">
+              <div className="item">
+                <h3 className="level-title">Python</h3>
+                <div className="progress level-bar">
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '99%' }} aria-valuenow={99} aria-valuemin={0} aria-valuemax={100} />
+                </div>
+              </div>{/*//item*/}
+              <div className="item">
+                <h3 className="level-title">Flask </h3>
+                <div className="progress level-bar">
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
+                </div>
+              </div>{/*//item*/}
+              <div className="item">
+                <h3 className="level-title">HTML5</h3>
+                <div className="progress level-bar">
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
+                </div>
+              </div>{/*//item*/}
+              <div className="item">
+                <h3 className="level-title">JavaScript &amp; jQuery</h3>
+                <div className="progress level-bar">
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} />
+                </div>
+              </div>{/*//item*/}
+              <div className="item">
+                <h3 className="level-title">CSS</h3>
+                <div className="progress level-bar">
+                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} />
+                </div>
+              </div>{/*//item*/}
+
+            </div>
+          </section>{/*//skills-section*/}
           <section className="section experiences-section">
             <h2 className="section-title"><span className="icon-holder"><i className="fas fa-briefcase" /></span>Experiences</h2>
             <div className="item">
@@ -133,60 +187,7 @@ export default function Home() {
               </div>{/*//details*/}
             </div>{/*//item*/}
           </section>{/*//section*/}
-          <section className="section projects-section">
-            <h2 className="section-title"><span className="icon-holder"><i className="fas fa-archive" /></span>Projects</h2>
-            <div className="intro">
-            </div>{/*//intro*/}
-            <div className="item">
-              <span className="project-title"><a href="http://snake.rebeccasmith.lol/" target="_blank">Snake game</a></span> - <span className="project-tagline">Classic snake, better graphics and arcade tunes. Eat the apple but avoid the walls and your tail! </span>
-            </div>{/*//item*/}
-            <div className="item">
-              <span className="project-title"><a href="http://todo2.rebeccasmith.lol/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">This to do app implements user authentication, tracking data with a PostgreSQL database, and test coverage.</span>
-            </div>{/*//item*/}
-            <div className="item">
-              <span className="project-title"><a href="http://todo.rebeccasmith.lol/" target="_blank">To do app - JavaScript</a></span> - <span className="project-tagline">A simple, yet beautified, to do app written in JavaScript that tracks to do items in a MongoDB database.</span>
-            </div>{/*//item*/}
-            <div className="item">
-              <span className="project-title"><a href="https://yumroad--app.herokuapp.com/" target="_blank">Yumroad</a></span> - <span className="project-tagline">This app is similar to Gumroad. It was built using flask, has 100% test coverage, implements payments with Stripe, utilizes delayed jobs, sending emails, and uses a PostgreSQL database.</span>
-            </div>{/*//item*/}
 
-          </section>{/*//section*/}
-          <section className="skills-section section">
-            <h2 className="section-title"><span className="icon-holder"><i className="fas fa-rocket" /></span>Skills &amp; Proficiency</h2>
-            <div className="skillset">
-              <div className="item">
-                <h3 className="level-title">Python</h3>
-                <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '99%' }} aria-valuenow={99} aria-valuemin={0} aria-valuemax={100} />
-                </div>
-              </div>{/*//item*/}
-              <div className="item">
-                <h3 className="level-title">Flask </h3>
-                <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
-                </div>
-              </div>{/*//item*/}
-              <div className="item">
-                <h3 className="level-title">HTML5</h3>
-                <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={98} aria-valuemin={0} aria-valuemax={100} />
-                </div>
-              </div>{/*//item*/}
-              <div className="item">
-                <h3 className="level-title">JavaScript &amp; jQuery</h3>
-                <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} />
-                </div>
-              </div>{/*//item*/}
-              <div className="item">
-                <h3 className="level-title">CSS</h3>
-                <div className="progress level-bar">
-                  <div className="progress-bar theme-progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} />
-                </div>
-              </div>{/*//item*/}
-
-            </div>
-          </section>{/*//skills-section*/}
         </div>{/*//main-body*/}
       </div>
       <footer className="footer">
