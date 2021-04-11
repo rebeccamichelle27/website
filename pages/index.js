@@ -66,7 +66,7 @@ export default function Home() {
           <section className="section summary-section">
             <h2 className="section-title"><span className="icon-holder"><i className="fas fa-user" /></span>Career Profile</h2>
             <div className="summary">
-              <p>I'm Rebecca, a clinical research professional with 6 years of experience behind the bench, in the clinic, and in the office. I'm enthusiastic to explore the world of programming and land my first software development job. Python is the language I've enjoyed learning and programming in the most. I also have experience with JavaScript, JQuery, HTML5, and CSS.</p>
+              <p>I'm Rebecca, a clinical research professional with 6 years of experience behind the bench, in the clinic, and in the office. I've spent the past year studying to transition into the software industry while working full time and I'm enthusiastic to explore the world of software and land my first job. Python is the language I've enjoyed learning and programming in the most. I also have experience with JavaScript, JQuery, HTML5, and CSS.</p>
             </div>{/*//summary*/}
           </section>{/*//section*/}
           <section className="section experiences-section">
