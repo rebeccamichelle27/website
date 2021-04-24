@@ -66,7 +66,7 @@ export default function Home() {
           <section className="section summary-section">
             <h2 className="section-title"><span className="icon-holder"><i className="fas fa-user" /></span>Career Profile</h2>
             <div className="summary">
-              <p>I'm Rebecca, a clinical research professional with 6 years of experience behind the bench, in the clinic, and in the office. I've spent the past year studying to transition into the software industry while working full time. I've taken courses on Udemy (The Complete 2020 Web Development Bootcamp & Complete Python Developer in 2020), a Newline Flask course to build a SaaS application (Fullstack Flask), and the Flask Mega-Tutorial by Miguel Grinberg. Python is the language I've enjoyed learning and programming in the most. I also have experience with JavaScript, JQuery, HTML5, and CSS.</p>            </div>{/*//summary*/}
+              <p>I'm Rebecca, a clinical research professional with 6 years of experience. I've spent the past year studying to transition into the software industry while working full time. I've taken courses on Udemy (The Complete 2020 Web Development Bootcamp & Complete Python Developer in 2020), a Newline Flask course to build a SaaS application (Fullstack Flask), and the Flask Mega-Tutorial by Miguel Grinberg. Python is the language I've enjoyed learning and programming in the most. I also have experience with JavaScript, JQuery, HTML5, and CSS.</p>            </div>{/*//summary*/}
           </section>{/*//section*/}
 
           <section className="section projects-section">
