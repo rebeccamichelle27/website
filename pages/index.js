@@ -74,10 +74,10 @@ export default function Home() {
             <div className="intro">
             </div>{/*//intro*/}
             <div className="item">
-              <span className="project-title"><a href="http://snake.rebeccasmith.lol/" target="_blank">Snake game</a></span> - <span className="project-tagline">Classic snake, better graphics and arcade tunes. Eat the apple but avoid the walls and your tail! </span>
+              <span className="project-title"><a href="http://snake.rebeccasmith.lol/" target="_blank">Snake game</a></span> - <span className="project-tagline">Classic snake, better graphics and arcade tunes. Eat the apple but avoid the walls and your tail! <a href="https://github.com/rebeccamichelle27/snake">Link to code</a></span>
             </div>{/*//item*/}
             <div className="item">
-              <span className="project-title"><a href="http://todo2.rebeccasmith.lol/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">This to do app implements user authentication, tracking data with a PostgreSQL database, and test coverage.</span>
+              <span className="project-title"><a href="http://todo2.rebeccasmith.lol/" target="_blank">To do app - Python/Flask</a></span> - <span className="project-tagline">This to do app implements user authentication, tracking data with a PostgreSQL database, and test coverage. <a href="https://github.com/rebeccamichelle27/todo">Link to code </a></span>
             </div>{/*//item*/}
             <div className="item">
               <span className="project-title"><a href="http://todo.rebeccasmith.lol/" target="_blank">To do app - JavaScript</a></span> - <span className="project-tagline">A simple, yet beautified, to do app written in JavaScript that tracks to do items in a MongoDB database.</span>
